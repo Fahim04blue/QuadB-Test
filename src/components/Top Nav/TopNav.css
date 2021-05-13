@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+.navContainer {
+  padding: 20px 30px 0;
+}
+.brandLogo {
+  width: 80%;
+  padding: 10px;
+}
+
+.fontStyle {
+  font-family: "Oswald", sans-serif;
+  opacity: 0.8;
+  margin-top: -18px;
+  margin-left: 12px;
+  font-size: 18px;
+  color: gray;
+}
+
+.headerButton button {
+  border: 0;
+  border-radius: 10px;
+  margin: 10px;
+  font-family: "Oswald", sans-serif;
+}
+
+.timer {
+  font-family: "Oswald", sans-serif;
+}
+
+.rightHeader {
+  text-align: right;
+}
+.telegramBtn .btn {
+  margin-left: 20px;
+  background-color: rgb(61, 198, 193) !important;
+  border-radius: 10px;
+  color: white;
+}
+.theme-switcher-wrap {
+  margin: 10px 5px 5px 20px;
+  display: inline-block;
+}
+.theme-switcher-wrap .theme-switcher-label {
+  display: inline-block;
+  cursor: pointer;
+}
+.theme-switcher-wrap .theme-switcher-label .switch-path {
+  width: 40px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: #ccc;
+  transition: all 0.3s ease-in-out;
+}
+.theme-switcher-wrap .theme-switcher-label .switch-path .switch-handle {
+  background-color: rgb(61, 198, 193);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+.theme-switcher-wrap .theme-switcher-label.active .switch-path {
+  background-color: #555;
+}
+.theme-switcher-wrap .theme-switcher-label.active .switch-handle {
+  transform: translatex(20px);
+  background-color: rgb(61, 198, 193);
+}
+
+@media screen and (max-width: 768px) {
+  .fontStyle {
+    text-align: center;
+    margin-right: 50px;
+  }
+  .rightHeader {
+    text-align: center;
+    margin-top: 10px;
+  }
+  .brandLogo {
+    margin-left: 30px;
+  }
+}

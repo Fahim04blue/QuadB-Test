@@ -1,0 +1,16 @@
+.footer {
+  border-top: 2px solid #ddd;
+  bottom: 0;
+  padding: 13px;
+  width: 100%;
+}
+.theme-dark.footer {
+  border-top: 2px solid #2e3241;
+}
+.footer-text {
+  color: #888686;
+  white-space: nowrap;
+  padding-right: 12px;
+  font-size: 12px;
+  font-weight: 400;
+}

@@ -1,0 +1,29 @@
+.theme-dark {
+  /* height: 100vh;
+  width: 100vw; */
+  background-color: #191d28;
+  color: white;
+}
+.theme-dark button {
+  background-color: #2e3241;
+  color: white;
+}
+.theme-dark p {
+  color: white;
+}
+.sticky-footer {
+  border: 1px solid #191d28;
+  background-color: #191d28;
+  position: sticky;
+  width: 100%;
+  height: 47px;
+  left: 0;
+  align-items: center;
+  bottom: 0;
+  overflow-x: hidden;
+}
+
+.btn-outline-info {
+  color: #17a2b8;
+  border-color: #17a2b8;
+}
